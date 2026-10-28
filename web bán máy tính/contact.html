@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trải nghiệm biểu mẫu tư vấn minh họa của NovaPC và đọc câu hỏi thường gặp về website và lựa chọn máy tính.">
+  <meta name="theme-color" content="#182125">
+  <title>Liên hệ & tư vấn | NovaPC</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
+  <div class="announcement">
+    <div class="container">
+      <span><strong>MAKE ROOM FOR MORE.</strong> &nbsp; Thêm hiệu năng. Thêm cảm hứng.</span>
+      <a class="announcement-right" href="about.html#du-an">Website minh họa cho bài tập <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="NovaPC — Trang chủ"><span class="brand-mark"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5h3l10 10V5h3v14h-3L7 9v10Z" fill="#d5f86a"/></svg></span><span class="brand-name">nova<span>pc.</span></span></a>
+      <nav class="nav-links" aria-label="Điều hướng chính">
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+        <a href="about.html">Về NovaPC</a>
+        <a href="contact.html" aria-current="page">Liên hệ</a>
+      </nav>
+      <a class="header-cta" href="contact.html#tu-van">Chọn máy cùng bạn <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </header>
+  <main id="main-content">
+    <nav class="container breadcrumb" aria-label="Đường dẫn trang">
+      <a href="index.html">Trang chủ</a><span aria-hidden="true">/</span><span aria-current="page">Liên hệ</span>
+    </nav>
+    <div class="container page-intro">
+      <div><p class="eyebrow">Let's find your next setup</p><h1>Góc máy mới.<br>Bắt đầu một cuộc trò chuyện.</h1></div>
+      <p>Hiểu nhu cầu là bước đầu để chọn máy. Dùng biểu mẫu minh họa bên dưới để thử phác thảo lựa chọn của bạn.</p>
+    </div>
+
+    <div class="container contact-layout" id="tu-van">
+      <section class="contact-summary" aria-labelledby="needs-title">
+        <h2 id="needs-title">Kể một chút<br>về điều bạn cần.</h2>
+        <p>Không cần biết trước cấu hình. Chỉ cần bắt đầu với những việc bạn muốn làm tốt hơn mỗi ngày.</p>
+        <ol class="contact-steps">
+          <li><span>01</span><div><h3>Mục đích sử dụng</h3><p>Học tập, văn phòng, chơi game hay sáng tạo?</p></div></li>
+          <li><span>02</span><div><h3>Khoảng ngân sách</h3><p>Chọn mức đầu tư mà bạn thấy thoải mái.</p></div></li>
+          <li><span>03</span><div><h3>Điều bạn ưu tiên</h3><p>Gọn nhẹ, màn hình lớn hay dễ nâng cấp?</p></div></li>
+        </ol>
+        <p class="demo-notice"><strong>Đây là bản minh họa.</strong><br>Website chưa kết nối dịch vụ tư vấn. Biểu mẫu không gửi, lưu hoặc xử lý thông tin của bạn.</p>
+      </section>
+
+      <div>
+        <section class="form-result" id="ban-nhap" aria-labelledby="result-title">
+          <h2 id="result-title">Đã hoàn thành biểu mẫu mẫu.</h2>
+          <p>Trình duyệt đã kiểm tra các trường bắt buộc. Đây là thao tác minh họa; thông tin không được gửi hoặc lưu lại và chưa có yêu cầu tư vấn nào được tạo.</p>
+          <a class="text-link" href="contact.html#tu-van">Thử lại biểu mẫu <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </section>
+        <!-- Inputs intentionally have no name attribute, so personal data is not serialized in the URL. -->
+        <form class="consult-form" action="contact.html#ban-nhap" method="get">
+          <h2>Phác thảo nhu cầu của bạn.</h2>
+          <p class="form-intro">Biểu mẫu trải nghiệm. Các mục có dấu * là bắt buộc.</p>
+          <div class="form-row">
+            <div class="field"><label for="full-name">Tên của bạn *</label><input type="text" id="full-name" placeholder="Ví dụ: Minh Anh" autocomplete="name" maxlength="80" required></div>
+            <div class="field"><label for="email">Email *</label><input type="email" id="email" placeholder="ban@example.com" autocomplete="email" maxlength="120" required></div>
+          </div>
+          <div class="field">
+            <label for="purpose">Bạn dùng máy để làm gì? *</label>
+            <select id="purpose" required>
+              <option value="">Chọn nhu cầu chính</option>
+              <option value="study">Học tập &amp; văn phòng</option>
+              <option value="gaming">Chơi game &amp; giải trí</option>
+              <option value="creative">Thiết kế &amp; sáng tạo nội dung</option>
+              <option value="programming">Lập trình &amp; làm việc chuyên môn</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="budget">Ngân sách dự kiến *</label>
+            <select id="budget" required>
+              <option value="">Chọn khoảng ngân sách</option>
+              <option value="under-15">Dưới 15 triệu đồng</option>
+              <option value="15-25">Từ 15 đến 25 triệu đồng</option>
+              <option value="25-35">Từ 25 đến 35 triệu đồng</option>
+              <option value="over-35">Trên 35 triệu đồng</option>
+            </select>
+          </div>
+          <div class="field"><label for="message">Điều bạn muốn chia sẻ <span>(không bắt buộc)</span></label><textarea id="message" maxlength="1000" placeholder="Phần mềm thường dùng, mẫu máy đang quan tâm hoặc điều bạn ưu tiên..."></textarea></div>
+          <div class="form-bottom"><button class="button button-dark" type="submit">Hoàn tất bản mẫu <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button><p>Chỉ minh họa giao diện.<br>Không gửi yêu cầu tư vấn.</p></div>
+        </form>
+      </div>
+    </div>
+
+    <section class="container section" id="faq" aria-labelledby="faq-title">
+      <div class="faq">
+        <p class="eyebrow">Good to know</p>
+        <h2 id="faq-title">Bạn có thể đang thắc mắc.</h2>
+        <details><summary>Tôi có thể đặt mua sản phẩm trên website này không?</summary><p>Website là bài tập xây dựng giao diện tĩnh. Sản phẩm, cấu hình và giá chỉ để minh họa; hiện không có chức năng đặt hàng, thanh toán hoặc giao nhận.</p></details>
+        <details><summary>Laptop hay máy bàn phù hợp với tôi hơn?</summary><p>Hãy bắt đầu từ việc bạn có cần di chuyển thường xuyên hay không. Sau đó cân nhắc phần mềm, không gian sử dụng và ngân sách. Phần <a href="products.html#huong-dan">hướng dẫn chọn máy</a> có thêm gợi ý để bạn tự xác định nhu cầu.</p></details>
+        <details><summary>Biểu mẫu tư vấn có lưu thông tin của tôi không?</summary><p>Không. Biểu mẫu chỉ sử dụng kiểm tra trường bắt buộc và định dạng email của trình duyệt. Các trường không được gửi lên máy chủ, không xuất hiện trên URL và không được lưu vào bộ nhớ của website.</p></details>
+        <details><summary>Hình ảnh và nội dung của website lấy từ đâu?</summary><p>Nội dung và các hình minh họa SVG được tạo riêng cho dự án. Bạn có thể xem phần ghi nguồn ở trang <a href="about.html#nguon">Về NovaPC</a> và tài liệu trong <a href="README.md">README</a>.</p></details>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-intro">
+        <a class="brand" href="index.html" aria-label="NovaPC — Trang chủ"><span class="brand-mark"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19V5h3l10 10V5h3v14h-3L7 9v10Z" fill="#d5f86a"/></svg></span><span class="brand-name">nova<span>pc.</span></span></a>
+        <p>Không gian công nghệ dành cho công việc, sáng tạo và những điều bạn yêu thích.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Khám phá NovaPC</h2>
+        <a href="products.html">Bộ sưu tập máy tính</a>
+        <a href="about.html">Câu chuyện của chúng mình</a>
+        <a href="contact.html#faq">Câu hỏi thường gặp</a>
+      </div>
+      <div class="footer-column">
+        <h2>Thông tin hữu ích</h2>
+        <a href="products.html#huong-dan">Hướng dẫn chọn máy</a>
+        <a href="contact.html#tu-van">Biểu mẫu tư vấn</a>
+        <a href="about.html#nguon">Nguồn nội dung &amp; hình ảnh</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© 2026 NovaPC. Dự án học tập — thương hiệu, sản phẩm và giá đều là minh họa.</p>
+      <a href="README.md">Tài liệu dự án <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </footer>
+</body>
+</html>

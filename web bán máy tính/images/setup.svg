@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 620" fill="none">
+  <defs>
+    <linearGradient id="case" x1="538" y1="210" x2="688" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#3e4746"/><stop offset="1" stop-color="#141c1e"/></linearGradient>
+    <linearGradient id="screen" x1="150" y1="200" x2="470" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#202c4e"/><stop offset=".5" stop-color="#46509b"/><stop offset="1" stop-color="#536a80"/></linearGradient>
+    <linearGradient id="ribbon" x1="189" y1="241" x2="395" y2="378" gradientUnits="userSpaceOnUse"><stop stop-color="#c5d3fb"/><stop offset=".45" stop-color="#8c9de5"/><stop offset="1" stop-color="#5261a5"/></linearGradient>
+    <linearGradient id="glass" x1="485" y1="198" x2="616" y2="436" gradientUnits="userSpaceOnUse"><stop stop-color="#2a3942"/><stop offset="1" stop-color="#162025"/></linearGradient>
+    <linearGradient id="edge" x1="123" y1="373" x2="458" y2="427" gradientUnits="userSpaceOnUse"><stop stop-color="#525b5a"/><stop offset=".5" stop-color="#90938a"/><stop offset="1" stop-color="#313d3b"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#698e57" stop-opacity=".22"/><stop offset="1" stop-color="#698e57" stop-opacity="0"/></radialGradient>
+    <radialGradient id="fan"><stop offset=".39" stop-color="#292731"/><stop offset=".62" stop-color="#8771b9"/><stop offset=".79" stop-color="#c1a9fb"/><stop offset=".91" stop-color="#8974bc"/><stop offset="1" stop-color="#292d38"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="11"/></filter>
+    <pattern id="keys" width="17" height="12" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="13" height="8" rx="2" fill="#647169"/></pattern>
+    <clipPath id="monitor-clip"><path d="M135 215 458 176 458 363 135 397Z"/></clipPath>
+  </defs>
+  <ellipse cx="419" cy="334" rx="300" ry="254" fill="url(#glow)"/>
+  <path d="M130 111 630 66M95 180 686 125M80 263 710 204M100 355 697 299M135 447 650 399M216 67 157 476M341 50 324 505M474 40 492 491M595 37 661 435" stroke="#8ca988" stroke-opacity=".045"/>
+  <ellipse cx="420" cy="493" rx="260" ry="33" fill="#0c1712" opacity=".7" filter="url(#shadow)"/>
+  <!-- The workstation tower, with a transparent side panel and two RGB fans. -->
+  <path d="m491 174 108-35 91 40-111 37Z" fill="#535d5b"/>
+  <path d="m579 216 111-37v241l-111 40Z" fill="url(#case)"/>
+  <path d="m491 174 88 42v244l-88-44Z" fill="#101a1c"/>
+  <path d="m499 191 71 34v213l-71-35Z" fill="url(#glass)" stroke="#4b5657"/>
+  <path d="m506 207 56 28v189l-56-27Z" stroke="#738587" stroke-opacity=".2"/>
+  <path d="m509 381 54 25v19l-54-26Z" fill="#344149"/>
+  <path d="m511 355 53 24v10l-53-25Z" fill="#91b197"/>
+  <path d="m518 252 27 12v40l-27-12Z" fill="#3b4953" stroke="#697879"/>
+  <path d="m527 267 10 4v16l-10-4Z" fill="#8793ac"/>
+  <path d="M531 307v29l19 8v19" stroke="#7c7294" stroke-width="3"/>
+  <path d="m550 250 10 5v63l-10-5Z" fill="#acc187" opacity=".7"/>
+  <g transform="translate(630 265) skewY(-19)">
+    <ellipse rx="34" ry="36" fill="#0f181b" stroke="#4e555e"/>
+    <ellipse rx="27" ry="29" fill="url(#fan)"/>
+    <path d="M0-19c13 0 16 10 1 18 16-4 24 5 6 10 4 14-9 23-10 3-13 4-23-4-9-10C-26-10-11-23 0-6Z" fill="#535464"/>
+    <circle r="7" fill="#91929e"/>
+  </g>
+  <g transform="translate(630 345) skewY(-19)">
+    <ellipse rx="34" ry="36" fill="#0f181b" stroke="#4e555e"/>
+    <ellipse rx="27" ry="29" fill="url(#fan)"/>
+    <path d="M0-19c13 0 16 10 1 18 16-4 24 5 6 10 4 14-9 23-10 3-13 4-23-4-9-10C-26-10-11-23 0-6Z" fill="#535464"/>
+    <circle r="7" fill="#91929e"/>
+  </g>
+  <path d="m608 184 28-9" stroke="#90a48d" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="647" cy="174" rx="3" ry="2" fill="#d5f86a"/>
+  <path d="M506 423v13l12 6v-14M661 434v11l12-4v-11" stroke="#172221" stroke-width="7"/>
+  <!-- Monitor and sculptural wallpaper. -->
+  <path d="m294 387 48-6v73l-48 5Z" fill="#6c7670"/>
+  <path d="m297 445-53 25 87 15 71-28-70-13Z" fill="#424e48" stroke="#657368"/>
+  <path d="m130 206 333-41q9-1 9 9v213q0 7-8 8l-334 37q-8 1-8-7V215q0-8 8-9Z" fill="#0a1113" stroke="#66746d" stroke-width="2"/>
+  <path d="M135 215 458 176 458 363 135 397Z" fill="url(#screen)"/>
+  <g clip-path="url(#monitor-clip)">
+    <ellipse cx="360" cy="307" rx="161" ry="87" fill="#a5b7e0" opacity=".1" transform="rotate(-26 360 307)"/>
+    <path d="M160 410c-4-95 76-162 179-145 52 8 62 65 15 91-65 36-153-3-94-65 48-50 126-63 178-49" stroke="#17274b" stroke-width="35"/>
+    <path d="M166 395c-4-95 76-162 179-145 52 8 62 65 15 91-65 36-153-3-94-65 48-50 126-63 178-49" stroke="url(#ribbon)" stroke-width="29"/>
+    <path d="M166 389c-4-89 77-156 179-139 48 8 60 63 11 89" stroke="#d7ddfc" stroke-opacity=".45" stroke-width="2"/>
+    <path d="M185 437c-3-70 84-141 179-131 43 5 70 48 48 77" stroke="#7792b9" stroke-width="21"/>
+    <path d="M135 370 459 335V396H135Z" fill="#25365b" opacity=".12"/>
+  </g>
+  <path d="m123 407 347-39v17q0 8-8 9l-332 38q-7 1-7-7Z" fill="url(#edge)"/>
+  <circle cx="293" cy="399" r="2" fill="#cfd8c4"/>
+  <!-- Keyboard and mouse. -->
+  <path d="m228 466 174-24 90 38-174 32Z" fill="#36433d" stroke="#6b796b"/>
+  <path d="m241 466 157-21 77 33-157 26Z" fill="url(#keys)"/>
+  <path d="m308 492 73-12 15 6-74 12Z" fill="#8a9988"/>
+  <path d="m230 469 89 44 173-31v6l-173 31-89-45Z" fill="#233329"/>
+  <path d="M512 460c10-17 24-19 36-8l20 14c12 10 3 26-16 26-24-1-44-17-40-32Z" fill="#6e7f6c" stroke="#a0ae94"/>
+  <path d="m530 453 14 10" stroke="#314732" stroke-width="2"/>
+  <path d="M535 457l4 3" stroke="#d5f86a" stroke-width="2" stroke-linecap="round"/>
+</svg>

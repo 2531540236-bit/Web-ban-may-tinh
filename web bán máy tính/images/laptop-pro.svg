@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" fill="none">
+  <defs>
+    <linearGradient id="body" x1="95" y1="85" x2="356" y2="312"><stop stop-color="#57616a"/><stop offset="1" stop-color="#9da7af"/></linearGradient>
+    <linearGradient id="screen" x1="112" y1="106" x2="335" y2="242"><stop stop-color="#1e2440"/><stop offset="1" stop-color="#6971ad"/></linearGradient>
+    <linearGradient id="ribbon" x1="120" y1="167" x2="340" y2="200"><stop stop-color="#a7b6e2"/><stop offset=".5" stop-color="#d0c7f3"/><stop offset="1" stop-color="#8c88c4"/></linearGradient>
+    <linearGradient id="base" x1="74" y1="261" x2="425" y2="321"><stop stop-color="#a9b2bb"/><stop offset="1" stop-color="#667380"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
+    <pattern id="keys" width="16" height="12" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="12" height="8" rx="1.5" fill="#303943"/></pattern>
+    <clipPath id="panel"><path d="m108 117 228-35v150l-228 31Z"/></clipPath>
+  </defs>
+  <ellipse cx="248" cy="322" rx="174" ry="12" fill="#24303a" opacity=".13" filter="url(#blur)"/>
+  <path d="m102 104 238-36q8-1 8 9v161l-246 37q-7 1-7-7V113q0-8 7-9Z" fill="url(#body)" stroke="#4b5866" stroke-width="2"/>
+  <path d="m108 117 228-35v150l-228 31Z" fill="url(#screen)"/>
+  <g clip-path="url(#panel)">
+    <path d="M82 259c60-114 138-147 185-106 52 45-26 102-66 60-46-49 60-113 162-87" stroke="#293354" stroke-width="39"/>
+    <path d="M84 248c60-114 138-147 185-106 52 45-26 102-66 60-46-49 60-113 162-87" stroke="url(#ribbon)" stroke-width="30"/>
+    <path d="M84 242c60-108 138-141 185-100" stroke="#e1d9ff" stroke-opacity=".65" stroke-width="2"/>
+  </g>
+  <circle cx="222" cy="97" r="2" fill="#1e2833"/>
+  <path d="m97 274 251-37 78 63-265 43-98-54q-6-4 1-7Z" fill="url(#base)" stroke="#74818e"/>
+  <path d="m119 273 214-31 49 38-221 34Z" fill="url(#keys)"/>
+  <path d="m202 312 78-12 24 14-78 13Z" fill="#949fab" stroke="#768795"/>
+  <path d="m67 289 94 54 265-43v6l-262 45q-5 1-9-2l-88-52Z" fill="#536372"/>
+  <path d="m249 334 74-13" stroke="#3c4c5d" stroke-width="2"/>
+</svg>
